@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Personal Portfolio">
+  <meta name="viewport" content="width-device-width, initial scale = 1.0">
+  <meta name="author" content="Jon Michael Lawrence">
+  <title> Personal Portfolio</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+
+
+});
+</script>
+
+<style>
+body{
+  background-color: #8080ff;
+  font-family: Arial;
+}
+
+#welcome-section{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+font-size: 3vw;
+
+}
+#clock{
+display: flex;
+justify-content: flex-start;
+position: fixed;
+float: left;
+margin: auto;
+top: 0;
+    left: 0;
+    width: 25%;
+    background-color: t
+ransparent;
+}
+
+#navbar{
+  display: flex;
+    justify-content: flex-end;
+    position: fixed;
+float: right;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: t
+ransparent;
+  height: 10%;
+}
+.nav-links{
+  display: flex;
+    margin-right: 2.5rem;
+  color:  #004d4d;
+padding: 25px;
+height:15px;
+margin-top: 10px;
+background-color: #4d4dff;
+
+}
+
+figure.gallery {
+  margin: 100px;
+padding: 50px;
+  border: 4px solid #ccc;
+  float: left;
+  width: 500px;
+height: 500px;
+}
+
+figure.gallery:hover {
+  border: 2px solid #777;
+}
+
+figure.gallery img {
+  width: 100%;
+  height: 100%;
+}
+h2{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+#contact{
+  
+     color: #009999;
+}
+p{
+  font-style: oblique;
+}
+@media (max-width: 300px) {
+ body {
+    background-color: #99ffff; 
+  }
+
+
+</style>
+
+
+</head>
+
+<body class= "container-fluid">
+
+  
+
+    <div id="navbar">
+
+      <a class= "nav-links active"   href="index.html"><i class="fa fa-home"></i> Welcome</a>
+      <a class= "nav-links active"  href="product landing page.html"><i class="fa fa-money"></i> Products</a>
+      <a class= "nav-links active"  href="contact form.html"><i class="fa fa-phone"></i> Contact</a>
+</div> 
+
+  <main>
+<section id="clock">
+<i class="glyphicon glyphicon-time"></i>
+<iframe src="http://free.timeanddate.com/clock/i72qylnh/n41/tlco/fs16/tct/pct/ftbi/bas2/pl5/pr5/pt5/pb5/tt0/tw1/tm1/ts1" frameborder="0" width="200" height="32" allowTransparency="true"></iframe>
+</section>
+
+    <section id= "welcome-section">
+      
+      <header id="title" class= "text-center">
+        <h1 class="shadow-lg p-3 mb-5 bg-white rounded">Welcome Home To
+	<br>Lawrence Inovations!
+        <small class="text-muted">   <br>I'm Jon A Web Developer</small>
+	</h1>
+      </header>
+      
+    </section>
+      
+      <section id= "projects">
+      
+        <header class= "text-center">
+          <h2> My Projects</h2><br>
+	</header>
+
+	<figure class="figure gallery">
+	<a href= "tribute page.png" target= "_blank">
+           <img class="figure-img img-fluid img-thumbnail rounded" src= "tribute page.png" alt= "tribute page">
+	</a>
+	<figcaption class="figure-caption text-center"><em><strong>Tribute Page</strong></em></figcaption>
+         </figure>
+
+	<figure class="figure gallery">
+	<a href="contact form.png" target= "_blank">
+           <img class="figure-img img-fluid img-thumbnail rounded" src= "contact form.png" alt= "contact form">
+        </a>
+	<figcaption class="figure-caption text-center"><em><strong>Contact Form</strong></em></figcaption>
+	</figure>
+
+	<figure class="figure gallery">
+	<a href= "product landing page.png" target= "_blank">
+           <img class="figure-img img-fluid img-thumbnail rounded" src= "product landing page.png" alt= "product landing page">
+        <a/>
+	<figcaption class="figure-caption text-center"><em><strong>Product Landing Page</strong></em></figcaption>
+	</figure>
+
+	<figure class="figure gallery">
+
+	<a href="technical information sheet.png" target= "_blank">
+           <img class="figure-img img-fluid img-thumbnail rounded" src= "technical information sheet.png" alt= "technical information sheet">
+	</a>  
+	<figcaption class="figure-caption text-center"><em><strong>Technical Information Sheet</strong></em></figcaption>       
+	</figure>
+
+    </section>
+                 
+      </main>
+      
+      </body>
+    
+    </html>

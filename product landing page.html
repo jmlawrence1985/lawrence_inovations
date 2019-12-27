@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Product Landing Page">
+  <meta name="viewport" content="width-device-width, initial scale = 1.0">
+  <meta name="author" content="Jon Michael Lawrence">
+  <title> Products</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+
+$(document).ready(function(){
+
+
+
+});
+
+</script>
+
+<style>
+body {
+  background-color: #8080ff;
+font-family: Arial;
+}
+
+#clock{
+display: flex;
+justify-content: flex-start;
+position: fixed;
+float: left;
+margin: auto;
+top: 0;
+    left: 0;
+    width: 25%;
+    background-color: t
+ransparent;
+}
+
+#navbar{
+  display: flex;
+    justify-content: flex-end;
+    position: fixed;
+float: right;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: t
+ransparent;
+  height: 10%;
+}
+.nav-links{
+  display: flex;
+    margin-right: 2.5rem;
+  color:  #004d4d;
+padding: 25px;
+height:15px;
+margin-top: 10px;
+background-color: #4d4dff;
+
+}
+
+#title {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#content {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+
+#prices {
+  text-align: center;
+  margin: auto;
+  width: 25%;
+}
+
+#contact {
+  text-align: center;
+  margin: auto;
+  width: 25%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+margin: 15px;
+padding: 5px;
+width: 550px;
+height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  iframe {
+    display: none;
+  }
+}
+p{
+text-size: 10vw;
+}
+</style>
+
+</head>
+
+<body class= "container-fluid">
+  <main id="main">
+
+     <header>
+    <div id="navbar">
+<br>
+      <a class= "nav-links"  href="index.html"><i class="fa fa-home"></i> Welcome</a>
+      <a class= "nav-links"  href="product landing page.html"><i class="fa fa-money"></i>Products</a>
+      <a class= "nav-links"  href="contact form.html"><i class="fa fa-phone"></i> Contact</a>
+    </div>    
+
+<section id="clock">
+<i class="glyphicon glyphicon-time"></i>
+<iframe src="http://free.timeanddate.com/clock/i72qylnh/n41/tlco/fs16/tct/pct/ftbi/bas2/pl5/pr5/pt5/pb5/tt0/tw1/tm1/ts1" frameborder="0" width="200" height="32" allowTransparency="true"></iframe>
+</section>
+
+<header>
+      <br><br><br><br><br><br><br>
+      <h1 class= "text-center" id="title">Lawrence Inovation</h1>
+      <br> <br>
+      <img id="header-img" src="web-development-services.jpg"
+        alt="Web Development">
+    </header>
+
+    <section id="content">
+<article>
+      <p class="lead">With our services you can reach all your potential clients.</p>
+      <aside>Most people look for potential services that they need by searching online. </aside>
+</article>
+      <br>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0ngyWlDaR1U" allowfullscreen></iframe>
+	
+	<article>
+	<p class="lead"><a href="contact form.html">Contact</a> me to see all the ways that I can help you reach those potencial clients!</p>
+	<h4 class= "text-center">Let's Make Something Happen!</h4>
+	</article>
+
+    </section>
+    <br>
+    <section id="prices">
+      <table class="table table-bordered table-hover table-responsive">
+        <thead>
+	  <th class="d-flex align-items-center justify-content-center" scope="col">#</th>
+          <th class="d-flex align-items-center justify-content-center" scope="col">Service</th>
+          <th class="d-flex align-items-center justify-content-center" scope="col">Price</th>
+        </thead>
+	<tbody>
+        <tr>
+	<th class="ad-flex align-items-center justify-content-center" scope="row">1</th>
+          <td class="d-flex align-items-center justify-content-center">Web Design</td>
+          <td class="d-flex align-items-center justify-content-center">$250</td>
+        </tr>
+        <tr>
+	<th class="d-flex align-items-center justify-content-center" scope="row">2</th>
+          <td class="d-flex align-items-center justify-content-center">Wed Development</td>
+          <td class="d-flex align-items-center justify-content-center">$250</td>
+        </tr>
+	<tr>
+	<th class="d-flex align-items-center justify-content-center" scope="row">3</th>
+	<td class="d-flex align-items-center justify-content-center">Page Upkeep</td>
+	<td class="d-flex align-items-center justify-content-center">$50</td>
+	</tr>
+	</tobdy>
+      </table>
+    </section>
+    
+  </main>
+
+</body>
+
+</html>
