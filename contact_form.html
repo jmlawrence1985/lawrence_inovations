@@ -29,6 +29,27 @@ $(document).ready(function(){
 });
 </script>
 
+<script>
+$(document).ready(function(){
+  $("button").focus(function(){
+    $(this).css("background-color", "#bfbfbf");
+  });
+  $("button").blur(function(){
+    $(this).css("background-color", "#404040");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("select").focus(function(){
+    $(this).css("background-color", "#bfbfbf");
+  });
+  $("select").blur(function(){
+    $(this).css("background-color", "#404040");
+  });
+});
+</script>
 
 <style>
 body{
@@ -357,14 +378,15 @@ function drawHand(ctx, pos, length, width) {
      <textarea id="comments" name="comments" placeholder= "Please, enter your comments or suggestions here" style="position: relative; z-index: auto; line-height: 28px; font-size: 20px;"></textarea>  
      <br>
 <div id="submit-label">
-     <button class="btn btn-default btn-block btn-outline-info btn-lg" data-toggle="button" aria-pressed id= "submit" type= "submit" placeholder= "submit"><span class="badge badge-pill badge-light"><i class="fa fa-check"></i></span> Submit</button> 
+     <button class="btn btn-default btn-block btn-outline-info btn-lg" data-toggle="button" aria-pressed id= "submit" type= "submit" placeholder= "submit">
+<span class="badge badge-pill badge-light"><i class="fa fa-check"></i></span> Submit</button> 
      </div>
 
       </form>
       </section>
     
 <section class="mapWrapper">
-<br><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63636.59219704878!2d-75.71556920955108!3d4.542270655111867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5ade6653bc1%3A0xc2c6ca4ab95d8808!2sArmenia%2C%20Quind%C3%ADo%2C%20Colombia!5e0!3m2!1ses-419!2sus!4v1576791487629!5m2!1ses-419!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+<br><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63636.59219704878!2d-75.71556920955108!3d4.542270655111867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5ade6653bc1%3A0xc2c6ca4ab95d8808!2sArmenia%2C%20Quind%C3%ADo%2C%20Colombia!5e0!3m2!1ses-419!2sus!4v1576791487629!5m2!1ses-419!2sus" width="600" height="450" style="border:0;">
 </iframe>
 </section>
 
